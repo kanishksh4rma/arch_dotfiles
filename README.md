@@ -6,6 +6,7 @@ Installation:
 git clone https://github.com/kanishksh4rma/arch_dotfiles.git
 cd arch_dotfiles
 cd config
+mv ~/.bashrc ~/.bashrc_backup
 mv .bashrc ~
 mv random_wallpaper.sh ~/Documents
 rm -rf ~/.config/hypr ~/.config/kitty ~/.config/mako ~/.config/scripts ~/.config/swaylock ~/.config/ulauncher ~/.config/waybar ~/.config/wofi
